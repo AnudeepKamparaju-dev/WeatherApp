@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="WeatherApp.css">
+</head>
+<body class="weather-theme">
+    <main class="appShell">
+        <section class="heroPanel">
+            <div class="titleBlock">
+                <p class="eyebrow">Live weather</p>
+                <h1>Check the sky before you step out.</h1>
+            </div>
+
+            <form class="weatherForm">
+                <input type="text" class="cityInput" placeholder="Search city" autocomplete="off">
+                <button type="submit" aria-label="Get weather">Search</button>
+            </form>
+
+            <div class="card">
+                <div class="emptyState">
+                    <span class="emptyIcon">?</span>
+                    <p>Enter a city to see current conditions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="WeatherApp.js"></script>
+    <footer><b>-by AnudeepKamparaju</b></footer>
+</body>
+</html>
